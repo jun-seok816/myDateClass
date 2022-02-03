@@ -108367,7 +108367,7 @@ function Layout(props) {
                                 react_2.default.createElement("p", { className: "profile-name" }, "junseok816"),
                                 react_2.default.createElement("p", { className: "profile-email" }, "Front end developer")))),
                     react_2.default.createElement("li", { className: "nav-item nav-category" },
-                        react_2.default.createElement(react_router_dom_1.Link, { onClick: () => lv_false(!lv_true), to: "/Comp_DateDemo" },
+                        react_2.default.createElement(react_router_dom_1.Link, { onClick: () => lv_false(!lv_true), to: "/myDateClass/Comp_DateDemo" },
                             react_2.default.createElement("span", null, "Description"))),
                     react_2.default.createElement("div", { className: lv_true ? "li-div" : "li-divnone" },
                         react_2.default.createElement("li", { className: "nav-item active" },
@@ -108395,7 +108395,7 @@ function Layout(props) {
                                 react_2.default.createElement("i", { className: "menu-icon typcn typcn-document-text" }),
                                 react_2.default.createElement("span", { className: "menu-title" }, "\uB0A0\uC9DC \uAD00\uB828\uD568\uC218")))),
                     react_2.default.createElement("li", { className: "nav-item nav-category" },
-                        react_2.default.createElement(react_router_dom_1.Link, { to: "/Comp_DashBoard" },
+                        react_2.default.createElement(react_router_dom_1.Link, { to: "/myDateClass/Comp_DashBoard" },
                             react_2.default.createElement("span", null, "DashBoard"))))),
             react_2.default.createElement("div", { className: "Container" },
                 react_2.default.createElement(react_router_dom_1.Outlet, null)))));
