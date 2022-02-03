@@ -108336,7 +108336,7 @@ const js_DateDemo_1 = __importStar(__webpack_require__(53790));
 let js_DateDemoObj = new js_DateDemo_1.js_DateDemo(new js_Date_1.default(new Date()));
 function Root() {
     return (react_2.default.createElement(react_router_dom_1.Routes, null,
-        react_2.default.createElement(react_router_dom_1.Route, { path: "myDateClass/", element: react_2.default.createElement(Layout, { isHome: true }) },
+        react_2.default.createElement(react_router_dom_1.Route, { path: "/myDateClass/", element: react_2.default.createElement(Layout, { isHome: true }) },
             react_2.default.createElement(react_router_dom_1.Route, { index: true, element: react_2.default.createElement(js_DateDashBoard_1.default, { Obj: js_DateDemoObj }) }),
             react_2.default.createElement(react_router_dom_1.Route, { path: "Comp_DashBoard", element: react_2.default.createElement(js_DateDashBoard_1.default, { Obj: js_DateDemoObj }) }),
             react_2.default.createElement(react_router_dom_1.Route, { path: "Comp_DateDemo", element: react_2.default.createElement(js_DateDemo_1.default, { Obj: js_DateDemoObj }) })),
