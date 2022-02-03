@@ -108338,8 +108338,8 @@ function Root() {
     return (react_2.default.createElement(react_router_dom_1.Routes, null,
         react_2.default.createElement(react_router_dom_1.Route, { path: "/myDateClass/", element: react_2.default.createElement(Layout, { isHome: true }) },
             react_2.default.createElement(react_router_dom_1.Route, { index: true, element: react_2.default.createElement(js_DateDashBoard_1.default, { Obj: js_DateDemoObj }) }),
-            react_2.default.createElement(react_router_dom_1.Route, { path: "Comp_DashBoard", element: react_2.default.createElement(js_DateDashBoard_1.default, { Obj: js_DateDemoObj }) }),
-            react_2.default.createElement(react_router_dom_1.Route, { path: "Comp_DateDemo", element: react_2.default.createElement(js_DateDemo_1.default, { Obj: js_DateDemoObj }) })),
+            react_2.default.createElement(react_router_dom_1.Route, { path: "/myDateClass/Comp_DashBoard", element: react_2.default.createElement(js_DateDashBoard_1.default, { Obj: js_DateDemoObj }) }),
+            react_2.default.createElement(react_router_dom_1.Route, { path: "/myDateClass/Comp_DateDemo", element: react_2.default.createElement(js_DateDemo_1.default, { Obj: js_DateDemoObj }) })),
         react_2.default.createElement(react_router_dom_1.Route, { path: "*", element: react_2.default.createElement("div", null, "Not Found") })));
 }
 exports["default"] = Root;
